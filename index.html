@@ -1,57 +1,47 @@
- <!DOCTYPE html>
- <html lang="ko">
- <head>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
   <meta charset="UTF-8">
+  <title>내 마음의 편지</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Love Proposal</title>
   <style>
-  body {
-  text-align: center;
-  font-family: Arial, sans-serif;
-  background-color: #fffaf8;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* 전체 내용 가운데 정렬 */
-  justify-content: flex-start; /* 내용을 위에서부터 배치 */
-  min-height: 100vh; /* 화면 높이 확보 */
-  box-sizing: border-box; /* padding이 전체 높이에 영향 주지 않도록 */
-  }
-  h2 {
-  color: #d9534f;
-  margin-bottom: 10px; /* h2 아래 여백 줄임 */
-  }
-  p {
-  color: #444;
-  font-size: 16px;
-  margin-bottom: 30px; /* p 아래 여백 늘림 */
-  }
-  img {
-  max-width: 80%; /* 이미지 최대 너비 줄임 */
-  height: auto;
-  display: block;
-  margin: 0 auto 30px auto; /* 가운데 정렬 및 아래 여백 늘림 */
-  }
-  audio {
-  max-width: 90%; /* 오디오 플레이어 최대 너비 */
-  height: auto;
-  display: block;
-  margin-top: auto; /* 오디오 플레이어를 맨 아래로 밀어냄 */
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px; /* 맨 아래 여백 추가 */
-  }
+    body {
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      padding: 40px;
+      background-color: #fffaf5;
+    }
+    h1 {
+      margin-bottom: 20px;
+      color: #d45a5a;
+    }
+    p {
+      font-size: 1.2em;
+      color: #444;
+    }
+    img {
+      max-width: 80%;
+      height: auto;
+      margin: 20px auto;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    audio {
+      margin-top: 20px;
+    }
   </style>
- </head>
- <body>
-  <h2>To. 사랑하는 효성이에게</h2>
-  <p>내 마음을 목소리로 전하고 싶었어.<br>눈을 감고 내 목소리를 들어줄래?</p>
+</head>
+<body>
+  <h1>To. 사랑하는 효성이에게</h1>
+  <p>이 사진처럼 우리의 추억은 언제나 내 마음속에 있어.<br>내 목소리를 들어줄래?</p>
 
-  <img src="love.png" alt="Will You Marry Me">
+  <!-- 여기에 이미지 표시 -->
+  <img src="love.png" alt="will you marry me"><br>
 
+  <!-- 오디오 재생 -->
   <audio controls autoplay>
     <source src="voice.mp3" type="audio/mpeg">
     당신의 브라우저는 오디오를 지원하지 않습니다.
   </audio>
- </body>
- </html>
+</body>
+</html>
